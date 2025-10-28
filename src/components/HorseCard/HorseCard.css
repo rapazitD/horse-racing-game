@@ -1,0 +1,78 @@
+.horse-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px;
+  background: #1a1a1a;
+  border-radius: 4px;
+  border: 1px solid #333;
+  transition: background 0.2s;
+}
+
+.horse-item:hover {
+  background: #252525;
+}
+
+.result-item {
+  border-left: 3px solid #ffd700;
+}
+
+.horse-lane {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.horse-icon-wrapper {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.horse-icon-small {
+  width: 28px;
+  height: 28px;
+}
+
+.horse-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.horse-name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.horse-condition {
+  color: #888;
+  font-size: 12px;
+}
+
+.finish-time {
+  color: #4CAF50;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: auto;
+  padding: 4px 8px;
+  background: rgba(76, 175, 80, 0.1);
+  border-radius: 4px;
+}
