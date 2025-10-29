@@ -94,6 +94,7 @@ export const actions: ActionTree<RaceState, RootState> = {
   async generateProgram({ commit, dispatch, rootState }) {
     commit('CLEAR_ROUND_RESULTS')
     commit('SET_RACE_STARTED', false)
+    commit('SET_CURRENT_ROUND_COMPLETED', false)
 
     await dispatch('horse/generateHorses', 20, { root: true })
 
